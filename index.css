@@ -4,12 +4,21 @@
     src: url(./Reglo-Bold.ttf);
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+
 html {
-    font-family: Reglo;
+    font-family: Montserrat, sans-serif;
 }
 
 body {
     margin: 0;
+}
+
+h1 {
+    font-family: Reglo, sans-serif;
 }
 
 .scaled-title {
@@ -38,6 +47,14 @@ body {
 .propaganda-image {
     width: 100vw;
     image-rendering: pixelated;
+}
+
+.introduction {
+    min-height: 50vh;
+    max-width: 800px;   
+    margin-inline: auto;
+    padding: 5rem;
+    line-height: 30px;
 }
 
 .analyses {
