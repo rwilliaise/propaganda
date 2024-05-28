@@ -50,7 +50,14 @@ h1 {
 }
 
 .introduction {
-    min-height: 50vh;
+    max-width: 800px;   
+    margin-inline: auto;
+    padding: 5rem;
+    line-height: 30px;
+}
+
+.sources {
+    border-top: 1px solid gray;
     max-width: 800px;   
     margin-inline: auto;
     padding: 5rem;
@@ -58,6 +65,21 @@ h1 {
 }
 
 .analyses {
-
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;   
+    margin-inline: auto;
+    line-height: 30px;
+    padding: 5rem;
 }
 
+.analysis {
+    flex: 300px;
+    margin: 1rem;
+}
+
+.analysis img {
+    margin-top: 1rem;
+    width: 100%;
+    margin-inline: auto;
+}
