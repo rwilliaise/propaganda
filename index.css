@@ -21,6 +21,15 @@ h1 {
     font-family: Reglo, sans-serif;
 }
 
+h2 {
+    font-family: Reglo, sans-serif;
+    margin-bottom: 0;
+}
+
+.spaced {
+    margin-top: 4rem;
+}
+
 .scaled-title {
     text-wrap: wrap;
     overflow-wrap: break-word;
